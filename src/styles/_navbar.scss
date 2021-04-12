@@ -1,7 +1,9 @@
 nav{
+
     height: 8vh;
     font-family: $font-family;
     background: $bg-color;
+    padding: 0 50px 0 50px !important;
 
     .navbar-brand{
         color: blue !important;
@@ -21,12 +23,13 @@ nav{
             width: 2px;
             height: 40px;
             background: $nav-text-color;
+            opacity: 0.5;
         }
     }
 
     ul:first-child{
         li{
-            margin-left: 50px;
+            margin-left: 40px;
         }
     }
 
