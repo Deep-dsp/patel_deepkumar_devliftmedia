@@ -23,6 +23,18 @@ function hero(){
                     </div>
                 </div>
             </div>
+            <div className="search-bar row">
+                <div className="job-title col-md-5 d-flex align-items-center">
+                    <img src="https://img.icons8.com/ios/15/000000/search--v1.png" alt="search icon"/>
+                    <p>Job title or a keyword</p>
+                </div>
+                <div className="job-location col-md-5 d-flex align-items-center">
+                    Hello
+                </div>
+                <div className="search-button col-md-2 d-flex justify-content-center">
+                    <button className="btn">Search</button>
+                </div>
+            </div>
         </section>
     );
 }
