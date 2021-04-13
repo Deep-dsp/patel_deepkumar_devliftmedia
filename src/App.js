@@ -3,6 +3,7 @@ import './App.scss';
 // import components
 import Navbar from './components/navbar';
 import Herosection from './components/herocontent.js';
+import Clientthumb from './components/clientThumb.js';
 // bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Herosection/>
+      <Clientthumb/>
     </div>
   );
 }

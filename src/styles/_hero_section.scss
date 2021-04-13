@@ -1,0 +1,70 @@
+.hero-section{
+    background: $bg-color;
+    .row{
+        height: 70vh;
+    }
+    .hero-text-block{
+        
+        font-family: $font-family;
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+
+        .com-tagline{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            // width: 70%;
+            h2{
+                font-family: $font-family;
+                font-size: 6rem;
+                font-weight: bolder;
+            }
+        }
+    }
+
+    // Hero Banner Image
+    .hero-banner-block{
+        // background: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .hero-image{
+            // background: chocolate;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: auto;
+            
+            img{
+                width: 60%;
+            }
+        }
+    }
+}
+
+// Media Queries - Main body
+
+@media screen and (max-width: 1400px){
+    .hero-section{
+        .hero-text-block{
+            .com-tagline{
+                h2{
+                    font-size: 5rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .hero-section{
+        .hero-text-block{
+            .com-tagline{
+                h2{
+                    font-size: 3.2rem;
+                }
+            }
+        }
+    }
+}

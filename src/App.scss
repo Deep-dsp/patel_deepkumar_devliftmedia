@@ -4,6 +4,10 @@
 @import './styles/vars';
 // navbar styling
 @import './styles/navbar';
+// Hero section
+@import './styles/hero_section';
+// Client Section
+@import './styles/clientThumbnail';
 
 *{
   margin: 0;
@@ -12,6 +16,5 @@
 }
 
 .App{
-  background: $bg-color;
-  overflow: hidden;
+  overflow-x: hidden;
 }
