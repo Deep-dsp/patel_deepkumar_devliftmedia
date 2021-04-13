@@ -1,7 +1,7 @@
 .service-cover{
     margin-top: 150px;
     background-color: rgb(253, 253, 253);
-
+    // background-image: url("caterory.png");
     .service-section{
         width: 80%;
         margin: auto;
@@ -64,7 +64,7 @@
 @media only screen and (max-width: 768px){
    .explore-title{
        p{
-           font-size: 2rem;
+           font-size: 2.3rem;
        }
    } 
 
@@ -73,7 +73,7 @@
        width: 100%;
        
        .col-md-2{
-           margin-left: 35px;
+           margin-left: 55px;
        }
    }
 }

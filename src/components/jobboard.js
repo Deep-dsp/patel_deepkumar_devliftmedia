@@ -7,7 +7,7 @@ function jobboard(){
                 <div className="explore-title">
                     <p>Explore <br/>by Category</p>
                 </div>
-                <div className="explore-category">
+                <div className="explore-category row">
                     <div className="col-md-2">
                         <div className="card">
                             <div className="card-body mt-4">
