@@ -12,7 +12,7 @@ function jobboard(){
                         <div className="card">
                             <div className="card-body mt-4">
                                 <img className="card-title" src="https://img.icons8.com/fluent/50/000000/rebalance-portfolio.png" alt="Business Development"/>
-                                <p className="card-text">Business Development</p>
+                                <p className="card-text">Business<br/> Development</p>
                             </div>
                         </div>
                     </div>
@@ -20,7 +20,7 @@ function jobboard(){
                         <div className="card">
                             <div className="card-body mt-4">
                                 <img src="https://img.icons8.com/ultraviolet/50/000000/customer-support.png" alt="Customer support"/>
-                                <p className="card-text">Customer Service</p>
+                                <p className="card-text">Customer<br/> Service</p>
                             </div>
                         </div>
                     </div>
@@ -48,14 +48,14 @@ function jobboard(){
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-2">
+                    <div className="col-md-2 remove-block">
                         <div className="card block-visible"></div>
                     </div>
                     <div className="col-md-2">
                         <div className="card">
                             <div className="card-body mt-4">
                                 <img src="https://img.icons8.com/cotton/50/000000/conference-background-selected.png" alt="HR Icon"/>
-                                <p className="card-text">Human Resource</p>
+                                <p className="card-text">Human<br/> Resource</p>
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ function jobboard(){
                         <div className="card">
                             <div className="card-body mt-4">
                                 <img src="https://img.icons8.com/dusk/50/000000/folder-tree.png" alt="Project Management Icon"/>
-                                <p className="card-text">Project management</p>
+                                <p className="card-text">Project<br/> management</p>
                             </div>
                         </div>
                     </div>
