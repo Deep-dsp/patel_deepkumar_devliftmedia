@@ -113,6 +113,25 @@
                 }
             }
         }
+
+        .search-bar{
+            width: 55%;
+
+            position: absolute;
+            top: 48%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .hero-section{
+        position: relative;
+        .search-bar{
+            width: 75% !important;
+
+            position: absolute;
+            top: 90%;
+        }
     }
 }
 
@@ -125,10 +144,15 @@
             }
         }
     }
+
+    .search-bar{
+        width: 58% !important;
+    }
 }
 
 @media only screen and (max-width: 768px){
     .hero-section{
+        position: relative;
         .hero-text-block{
             .com-tagline{
                 h2{
@@ -139,10 +163,18 @@
 
         .hero-banner-block{
             .hero-image{
-                
                 img{
                     width: 60% !important;
                 }
+            }
+        }
+
+        .search-bar{
+            height: 20vh;
+            position: absolute;
+
+            .job-location{
+                border-top: 1px solid #e0e0e0;;
             }
         }
     }
