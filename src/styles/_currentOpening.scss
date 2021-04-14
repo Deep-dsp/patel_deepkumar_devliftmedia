@@ -7,9 +7,12 @@
         margin: auto;
 
         .explore-title{
-            font-family: $font-family;
-            font-size: 3rem;
-            font-weight: 600;
+            p{
+                font-family: $font-family;
+                font-size: 3rem;
+                font-weight: 600;
+                margin-bottom: 0;
+            }
         }
     
         .explore-category{

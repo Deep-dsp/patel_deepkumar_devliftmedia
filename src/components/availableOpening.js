@@ -4,14 +4,14 @@ function jobopening(){
     return(
         <section className="job-cover">
             <div className="job-section">
+
                 <div className="explore-title">
                     <p>Jobs</p>
+                    <span>Find a job you love. <a href="#">Set career interests.</a></span>
                 </div>
-                <div>
-                    <p>Find a job you love. <a href="#">Set career interests.</a></p>
-                </div>
+                
                 <div className="explore-category row">
-                    {/* First block */}
+                    {/* First block  - We can also make sub component for each box*/}
                     <div className="col-md-4">
                         <div className="box">
                             <div className="box-body">
@@ -41,6 +41,7 @@ function jobopening(){
                             </div>
                         </div>
                     </div>
+
                     {/* block */}
                     <div className="col-md-4">
                         <div className="box">
@@ -49,13 +50,13 @@ function jobopening(){
                                     
                                     <div className="title-circle d-flex align-items-center"> 
                                         <div className="circle"></div>
-                                        <p>development</p>
+                                        <p>Marketing</p>
                                     </div>
-                                    <div className="jobpost-title"> Senior B2B Sales <br/>Consultant - Sweden</div>
+                                    <div className="jobpost-title"> Marketing & Communications Manager(Internship/Co-founder)</div>
                                     <div className="jobpost-location d-flex align-items-center">
                                         <p>London, ON</p>
                                         <p>&#9679;</p>
-                                        <p>Full-time</p>
+                                        <p>part-time</p>
                                     </div>
 
                                 </div>
@@ -133,6 +134,7 @@ function jobopening(){
                             </div>
                         </div>
                     </div>
+
                     {/* block */}
                     <div className="col-md-4">
                         <div className="box">
@@ -141,13 +143,13 @@ function jobopening(){
                                     
                                     <div className="title-circle d-flex align-items-center"> 
                                         <div className="circle"></div>
-                                        <p>development</p>
+                                        <p>design</p>
                                     </div>
-                                    <div className="jobpost-title"> Senior B2B Sales <br/>Consultant - Sweden</div>
+                                    <div className="jobpost-title"> Marketing & Communications Manager(Internship/Co-founder)</div>
                                     <div className="jobpost-location d-flex align-items-center">
                                         <p>London, ON</p>
                                         <p>&#9679;</p>
-                                        <p>Full-time</p>
+                                        <p>part-time</p>
                                     </div>
 
                                 </div>
@@ -195,6 +197,8 @@ function jobopening(){
                         </div>
                     </div>
                 </div>
+                
+                {/* Button */}
                 <div className="job-button d-flex justify-content-center">
                     <button className="btn">Show all jobs</button>
                 </div>

@@ -6,6 +6,7 @@ import Herosection from './components/herocontent.js';
 import Clientthumb from './components/clientThumb.js';
 import Jobboard from './components/jobboard.js';
 import Jobpost from './components/availableOpening';
+import Footer from './components/footer.js';
 // bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,6 +18,7 @@ function App() {
       <Clientthumb/>
       <Jobboard/>
       <Jobpost/>
+      <Footer/>
     </div>
   );
 }
