@@ -17,12 +17,17 @@ function footer(){
                         </ul>
                     </div>
                     <div className="footer-link col-md-12 container-fluid bg-dark">
-                        <div className="row">
-                            <div className="col-md-6">
-                                Hello
+                        <div className="row d-flex align-items-center">
+                            <div className="col-md-3">
+                                HUB
                             </div>
-                            <div className="col-md-6">
-                                There
+                            <div className="col-md-9">
+                                <ul>
+                                    <li className="nav-item"><a>About</a></li>
+                                    <li className="nav-item"><a>Privacy</a></li>
+                                    <li className="nav-item"><a>Partners</a></li>
+                                    <li className="nav-item"><a>Contact</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
