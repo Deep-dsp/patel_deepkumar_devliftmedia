@@ -9,7 +9,7 @@ function footer(){
                         <p>You're now seeing jobs from Denmark.<br/>The Hub is also available in:</p>
                     </div>
                     <div className="col-md-12">
-                        <ul className="first-link-block d-flex justify-content-center">
+                        <ul className="first-link-block">
                             <li><a>Ireland</a></li>
                             <li><a>Finland</a></li>
                             <li><a>Sweden</a></li>
