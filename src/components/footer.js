@@ -5,11 +5,11 @@ function footer(){
         <section className="footer-cover">
             <div className="footer-section">
                 <div className="row">
-                    <div className="col-md-12 d-flex justify-content-center">
+                    <div className="col-md-12 d-flex justify-content-center text-center">
                         <p>You're now seeing jobs from Denmark.<br/>The Hub is also available in:</p>
                     </div>
                     <div className="col-md-12">
-                        <ul className="first-link-block">
+                        <ul className="first-link-block d-flex justify-content-center">
                             <li><a>Ireland</a></li>
                             <li><a>Finland</a></li>
                             <li><a>Sweden</a></li>
