@@ -14,9 +14,9 @@
     
         .explore-category{
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
             justify-content: center;
-            margin-top: 30px;
+            margin-top: 15px;
 
             .box{
                 width: 400px;
@@ -86,10 +86,64 @@
 
             .box:hover{
                 cursor: pointer;
-                color: #fff;
-                background: rgb(255, 125, 73)
+            }
+        }
+
+        .job-button{
+            width: 97%;
+            margin: 50px 0;
+            .btn{
+               font-weight: bold;
+               color: #fff;
+               border: none;
+               background: $btn-bg-color;
+               padding: 15px 50px;
             }
         }
     }
 }
+
+// media Queries
+
+@media only screen and (max-width: 965px){
+    .explore-category{
+
+        .box{
+            margin-left: 180px;
+        }
+    }
+}
+
+@media only screen and (max-width: 860px){
+    .explore-category{
+        .box{
+            margin-left: 150px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .explore-category{
+        .box{
+            margin-left: 100px;
+        }
+    }
+}
+
+@media only screen and (max-width: 668px){
+    .explore-category{
+        .box{
+            margin-left: 50px;
+        }
+    }
+}
+
+@media only screen and (max-width: 568px){
+    .explore-category{
+        .box{
+            margin-left: 0px;
+        }
+    }
+}
+
 
