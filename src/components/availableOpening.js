@@ -21,7 +21,15 @@ function jobopening(){
                     <Jobpost/>
                 </div>
                 {/* Button */}
-                <div className="job-button d-flex justify-content-center">
+                <div className="job-button d-flex justify-content-center" 
+                    style={{
+                        backgroundImage: `url(${'/images/category.png'})`,
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: '250px',
+                        backgroundPositionX: '50%',
+                        backgroundPositionY: '-60px'
+                  }}
+                >
                     <button className="btn">Show all jobs</button>
                 </div>
             </div>
