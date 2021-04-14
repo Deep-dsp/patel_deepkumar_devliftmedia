@@ -16,6 +16,7 @@ function jobboard(){
                     <p>Explore <br/>by Category</p>
                 </div>
                 <div className="explore-category row">
+                    {/* We can make separate component for  'col-md-2' class component -> I decided to display different content that's why repeat same chunk of code*/}
                     <div className="col-md-2">
                         <div className="card"
                                 style={{
