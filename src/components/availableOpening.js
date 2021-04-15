@@ -5,13 +5,12 @@ function jobopening(){
     return(
         <section className="job-cover">
             <div className="job-section">
-
                 <div className="explore-title">
                     <p>Jobs</p>
                     <span>Find a job you love. <a href="#">Set career interests.</a></span>
                 </div>
                 
-                <div className="explore-category row">
+                <div className="explore-category row currentOpen">
                     {/* First block  - We can also make sub component for each box*/}
                     <Jobpost/>
                     <Jobpost/>

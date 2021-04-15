@@ -110,45 +110,110 @@
 
 // media Queries
 
-@media only screen and (max-width: 965px){
-    .explore-category{
-
-        .box{
-            margin-left: 180px;
-        }
+@media only screen and (max-width: 1462px){
+    .currentOpen{
+        // background: red;
+        padding-left: 100px;
     }
 }
 
-@media only screen and (max-width: 860px){
-    .explore-category{
-        .box{
-            margin-left: 150px;
-        }
+@media only screen and (max-width: 1087px){
+    .currentOpen{
+        // background: red;
+        padding-left: 210px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .currentOpen{
+        // background: red;
+        padding-left: 210px;
+    }
+}
+
+@media only screen and (max-width: 910px){
+    .currentOpen{
+        padding-left: 165px;
+    }
+}
+
+@media only screen and (max-width: 830px){
+    .currentOpen{
+        padding-left: 130px;
     }
 }
 
 @media only screen and (max-width: 768px){
-    .explore-category{
-        .box{
-            margin-left: 100px;
+    .currentOpen{
+        padding-left: 110px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .currentOpen{
+        padding-left: 70px;
+    }
+}
+
+@media only screen and (max-width: 592px){
+    .currentOpen{
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .currentOpen{
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .currentOpen{
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 482px){
+    .currentOpen{
+        padding-left: 0;
+
+        .col-md-4 .box{
+            width: 100% !important;
+
+            .box-second-block{
+                margin-top: 15px !important;
+            }
         }
     }
 }
 
-@media only screen and (max-width: 668px){
-    .explore-category{
-        .box{
-            margin-left: 50px;
+
+@media only screen and (max-width: 425px){
+
+
+    .currentOpen{
+        padding-left: 0;
+
+        .col-md-4 .box{
+            width: 100% !important;
+
+            .box-second-block{
+                margin-top: 15px !important;
+            }
         }
     }
 }
 
-@media only screen and (max-width: 568px){
-    .explore-category{
+@media only screen and (max-width: 320px){
+    .currentOpen{
         .box{
-            margin-left: 0px;
+            .box-first-block, .box-second-block{
+                padding: 0 20px;
+            }
         }
     }
 }
+
+
 
 
