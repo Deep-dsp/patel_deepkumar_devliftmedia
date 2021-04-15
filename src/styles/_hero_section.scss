@@ -51,7 +51,7 @@
 
         width: 50%;
         position: absolute;
-        top: 53%;
+        top: 54%;
         left: 15%;
         height: 10vh;
 
@@ -155,8 +155,13 @@
         position: relative;
         .hero-text-block{
             .com-tagline{
+                text-align: center;
                 h2{
-                    font-size: 2.8rem;
+                    font-size: 3.5rem;
+                }
+                p{
+                    padding-left: 10px;
+                    // background: green;
                 }
             }
         }
@@ -164,17 +169,38 @@
         .hero-banner-block{
             .hero-image{
                 img{
-                    width: 60% !important;
+                    width: 100% !important;
                 }
             }
         }
 
         .search-bar{
-            height: 20vh;
+            // height: 10vh;
             position: absolute;
-
+            left: 10%;
+            width: 83% !important;
             .job-location{
                 border-top: 1px solid #e0e0e0;;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .hero-section{
+        .hero-banner-block{
+            .hero-image{
+                img{
+                    width: 50% !important;
+                }
+            }
+        }
+
+        .search-bar{
+            height: 18vh;
+
+            .job-title,.job-location, .search-button{
+                height: 6vh;
             }
         }
     }
@@ -185,7 +211,52 @@
         .hero-banner-block{
             .hero-image{
                 img{
-                    width: 48%;
+                    width: 48% !important;
+                }
+            }
+        }
+
+        .search-bar{
+            height: 18vh;
+            top: 86%;
+
+            .job-title, .job-location, .search-button{
+                height: 6vh;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .hero-section{
+        .hero-text-block{
+            .com-tagline{
+                h2{
+                    font-size: 3rem;
+                }
+            }
+        }
+
+        .hero-banner-block{
+            .hero-image{
+                img{
+                    width: 70% !important;
+                }
+            }
+        }
+
+        .search-bar{
+            left: 12%;
+        }
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .hero-section{
+        .hero-text-block{
+            .com-tagline{
+                h2{
+                    font-size: 2.5rem;
                 }
             }
         }

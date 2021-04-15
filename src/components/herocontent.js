@@ -4,6 +4,7 @@ function hero(){
     return(
         <section className="hero-section">
             <div className="row">
+                {/* Main tagline, subtext & Hero image section */}
                 <div className="col-md-6 hero-text-block">
                     <div className="com-tagline">
                         <h2>
@@ -13,16 +14,16 @@ function hero(){
                         </h2>
                         <p>Built by <a href="#">Deep Patel</a>, and referenced by <a href="#">Dribble</a></p>
                     </div>
-                    {/* <div className="subtext">
-                        Built by <a href="#">Deep Patel</a>, and referenced by <a href="#">Dribble</a>
-                    </div> */}
                 </div>
+
                 <div className="col-md-6 hero-banner-block">
                     <div className="hero-image">
                         <img src="./images/hero.png" alt="Hero Illustration"/>
                     </div>
                 </div>
             </div>
+
+            {/* Search bar section */}
             <div className="search-bar row">
                 <div className="job-title col-md-5 d-flex align-items-center">
                     <img src="https://img.icons8.com/ios/15/000000/search--v1.png" alt="search icon"/>
