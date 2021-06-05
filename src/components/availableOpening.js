@@ -4,7 +4,6 @@ import Jobpost from './jobpostComponent.js';
 
 function jobopening(){
 
-
     return(
         <section className="job-cover">
             <div className="job-section">
@@ -15,12 +14,13 @@ function jobopening(){
                 
                 <div className="explore-category row currentOpen">
                     {/* First block  - We can also make sub component for each box*/}
-                    {/* <Jobpost/>
                     <Jobpost/>
                     <Jobpost/>
                     <Jobpost/>
                     <Jobpost/>
-                    <Jobpost/> */}
+                    <Jobpost/>
+                    <Jobpost/>
+
                 </div>
                 {/* Button */}
                 <div className="job-button d-flex justify-content-center" 

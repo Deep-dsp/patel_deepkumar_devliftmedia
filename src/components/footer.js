@@ -19,7 +19,7 @@ function footer(){
                     <div className="footer-link col-md-12 container-fluid bg-dark">
                         <div className="row d-flex align-items-center">
                             <div className="col-md-3">
-                                HUB
+                                D-TECH
                             </div>
                             <div className="col-md-9">
                                 <ul>

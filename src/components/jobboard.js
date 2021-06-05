@@ -18,6 +18,8 @@ function jobboard() {
     backgroundPositionX: "130px",
     backgroundPositionY: "-70px",
   };
+
+//   Return JSX section
   return (
     <section className="service-cover" style={backgroundCoverStyle}>
       <div className="service-section">
@@ -30,7 +32,7 @@ function jobboard() {
         <div className="explore-category row">
           {/* We can make separate component for  'col-md-2' class component -> I decided to display different content that's why repeat same chunk of code*/}
           <div className="col-md-2">
-            <div className="card" style={cardBackgroundStyle}>
+            <div className="card rootre" style={cardBackgroundStyle}>
               <div className="card-body mt-4">
                 <img
                   className="card-title"
